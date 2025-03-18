@@ -3,7 +3,7 @@
 mkdir img_ana
 
 # Loop over folder numbers from 1 to 5
-for i in {1..1}; do
+for i in {1..5}; do
     folder="replicate${i}"
     bash "${folder}/ana${i}.sh" &
 done
